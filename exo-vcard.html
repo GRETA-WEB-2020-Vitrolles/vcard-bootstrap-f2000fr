@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>vCard</title>
+	<style>
+		div {	/* debug */
+			border: 1px solid red;
+		}
+		header, .btn-dark {
+			background-color: black;
+		}
+		.container {
+			max-width: 600px;		/* valeur par défaut 1140px */
+		}
+		.text-sm {
+			font-size: 0.75em;
+		}
+		.svg-inline--fa:not(.fa-2x) {
+			font-size: 1.5em;
+		}
+		.btn-dark:hover {
+			opacity: .75;
+		}
+	</style>
+  </head>
+  <body>
+	<header class="text-white pt-5">
+		<div class="container text-center">
+			<img src="https://fakeimg.pl/250x100/" alt="logo" /><br />
+			<div class="my-3">
+				<strong>Prénom NOM</strong><br />
+				<em class="text-sm">Développeur Web<br />En recherche de stage</em><br />
+			</div>
+			<div class="row p-0 border-top">
+				<div class="col p-0 border-right">
+					<a class="btn btn-dark py-3 w-100 text-white" href="tel:0687974354">
+						<span class="fas fa-phone-alt"></span><br>
+						<span class="text-sm text-uppercase">Appeler</span>
+					</a>
+				</div>
+				<div class="col p-0 border-left">
+					<a class="btn btn-dark py-3 w-100 text-white" href="mailto:contact@F2000.FR">
+						<span class="fas fa-paper-plane"></span><br>
+						EMAIL
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+  <!--
+  container			// bloc centré (taille fixe) -> width 600px (à préciser en CSS)
+  row / col			// quadrillage
+  bg-white			// background white
+  w-100				// width = 100%
+  btn btn-**		// composant "bouton"
+  -->
+
+    <!-- Font Awesome -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
